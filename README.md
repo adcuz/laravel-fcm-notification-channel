@@ -63,7 +63,7 @@ class ExampleNotification extends Notification
 - `FCMMessageTopic`: Send notifications to topic(s).
 - `FCMMessageGroup`: Send notifications to group(s).
 
-In order for your notice to know who to send messages, you must add `routeNotificationForFCM` method to your notification model.
+In order for your notice to know who to send messages, you must add `routeNotificationForFCM` method to your notifiable model.
 
 ### Available message methods
 
