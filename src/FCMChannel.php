@@ -3,7 +3,7 @@
 namespace NotificationChannels\FCM;
 
 use LaravelFCM\Sender\FCMSender;
-use Illuminate\Events\Dispatcher;
+use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Notification;
 use NotificationChannels\FCM\Exceptions\CouldNotSendNotification;
 

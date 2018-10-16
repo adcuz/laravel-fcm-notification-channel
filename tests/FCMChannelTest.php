@@ -4,7 +4,7 @@ namespace NotificationChannels\FCM\Test;
 
 use Mockery;
 use LaravelFCM\Sender\FCMSender;
-use Illuminate\Events\Dispatcher;
+use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Notifiable;
 use NotificationChannels\FCM\FCMChannel;
 use NotificationChannels\FCM\FCMMessage;
